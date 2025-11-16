@@ -31,4 +31,29 @@
 			offset: function() { return $nav.height(); }
 		});
 
+	// Contact form: open default mail client with form data
+		$('article#contact form').on('submit', function(e) {
+			e.preventDefault();
+			var to = 'udaytyagi2020@gail.com';
+			var from = $('#email').val().trim();
+			var subject = $('#subject').val().trim() || 'Message from portfolio';
+			var message = $('#message').val().trim();
+
+			if (!from) {
+				alert('Please enter your email address.');
+				$('#email').focus();
+				return;
+			}
+			if (!message) {
+				alert('Please enter a message.');
+				$('#message').focus();
+				return;
+			}
+
+			var body = 'From: ' + from + '\n\n' + message;
+			var mailto = 'mailto:' + to + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+
+			window.location.href = mailto;
+		});
+
 })(jQuery);
