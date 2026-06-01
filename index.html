@@ -1,257 +1,703 @@
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Uday's Portfolio</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Uday Tyagi | Software Engineer</title>
+	<meta
+		name="description"
+		content="Uday Tyagi is a Frontend and Full Stack-focused Software Engineer specializing in Angular, Next.js, enterprise workflow systems, healthcare-tech platforms, logistics automation, integrations, and scalable business applications." />
 	<link rel="icon" type="image/png" href="assets/icon.png" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/portfolio-refresh.css" />
 </head>
-
 <body class="is-preload">
+	<div class="cursor-orb"></div>
+	<div class="cursor-glow"></div>
 
-	<!-- Nav -->
-	<nav id="nav">
-		<ul class="container">
-			<li><a href="#top">Profile</a></li>
-			<li><a href="#work">Experience</a></li>
-			<li><a href="#portfolio">Work</a></li>
-			<li><a href="#contact">Contact me</a></li>
-		</ul>
+	<nav id="nav" class="site-nav">
+		<div class="nav-inner">
+			<a href="#top" class="brand-pill liquid-interactive" aria-label="Uday Tyagi home">
+				<span class="brand-pill__halo" aria-hidden="true"></span>
+				<span class="brand-pill__letters">UT</span>
+			</a>
+			<button class="nav-toggle liquid-interactive" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle navigation menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<div class="nav-links" id="primary-navigation">
+				<a href="#about">About</a>
+				<a href="#skills">Skills</a>
+				<a href="#experience">Experience</a>
+				<a href="#projects">Projects</a>
+				<a href="#stack">Stack</a>
+				<a href="#contact">Contact</a>
+				<a
+					href="https://drive.google.com/file/d/1q_jJDaNvldw4fiwtR2VlhdQO9up-PSsJ/view?usp=drive_link"
+					target="_blank"
+					rel="noreferrer"
+					class="nav-cta liquid-interactive">
+					Resume
+				</a>
+			</div>
+		</div>
 	</nav>
 
-	<!-- Home -->
-	<article id="top" class="wrapper style1">
-		<div class="container">
-			<div class="row">
-				<div class="col-4 col-5-large col-12-medium">
-					<span class="image fit"><img
-							src="https://avatars.githubusercontent.com/u/97380506?s=400&u=c20a5ccb5c958eb9d2f10d2a404ecb88b4477dbb&v=4"
-							alt="" /></span>
+	<main>
+		<section id="top" class="hero-shell section-shell">
+			<div class="ambient-grid ambient-grid-a"></div>
+			<div class="ambient-grid ambient-grid-b"></div>
+			<div class="container hero-layout">
+				<div class="hero-copy reveal rise">
+					<p class="eyebrow role-rotator-wrap">
+						<span class="role-rotator" id="role-rotator" aria-live="polite">I&apos;m a Frontend Engineer</span>
+					</p>
+					<h1>Building Scalable Enterprise &amp; Workflow-Driven Applications</h1>
+					<p class="hero-subtitle">
+						Frontend / Full Stack-focused Software Engineer specializing in Angular, Next.js, enterprise
+						automation systems, healthcare-tech workflows, logistics portals, dashboard engineering,
+						and modern scalable architectures.
+					</p>
+					<p class="hero-body">
+						I design and ship production-grade interfaces for workflow-heavy products where clean UI,
+						reliable integrations, business logic clarity, and operational scalability matter just as much
+						as visual polish.
+					</p>
+					<div class="hero-actions">
+						<a href="#projects" class="button primary scrolly liquid-interactive">View Case Studies</a>
+						<a href="#contact" class="button secondary scrolly liquid-interactive">Let&apos;s Connect</a>
+					</div>
+					<div class="signal-row">
+						<div class="signal-chip">Angular &amp; Next.js product delivery</div>
+						<div class="signal-chip">Healthcare-tech workflows</div>
+						<div class="signal-chip">Wagon leasing workflow portals</div>
+						<div class="signal-chip">Enterprise UI architecture</div>
+					</div>
 				</div>
-				<div class="col-8 col-7-large col-12-medium">
-					<header>
-						<h1>Hi. I'm <strong>Uday Veer Singh</strong>.</h1>
-					</header>
-					<p> A passionate Jr. Software Engineer with 1.8 years of experience specializing in frontend
-						development, UI/UX
-						design, and low-code platform automation. Skilled in building responsive, scalable web
-						applications using
-						Angular, Tailwind CSS, JavaScript, and transforming user needs into intuitive digital
-						experiences. Adept at API
-						integration, workflow automation, and application design. Seeking to contribute to teams
-						building impactful,
-						user-centric applications.</p>
-					<a href="https://drive.google.com/file/d/1q_jJDaNvldw4fiwtR2VlhdQO9up-PSsJ/view?usp=drive_link"
-						target="_blank" class="button large scrolly">Resume</a>
-				</div>
-			</div>
-		</div>
-	</article>
 
-	<!-- Work -->
-	<article id="work" class="wrapper style2">
-		<div class="container">
-			<header>
-				<h2>Here's all the stuff I do.</h2>
-				<!-- <p>I hate to be mean, but the result is the result.</p> -->
-			</header>
-			<div class="row aln-center">
-				<div class="col-4 col-6-medium col-12-small">
-					<section class="box style1">
-						<span class=""> <img style="height: 30vh;"
-								src="https://img.freepik.com/free-vector/content-structure-concept-illustration_114360-5252.jpg?t=st=1737887770~exp=1737891370~hmac=3d60a196a2f191e079eeb3f81fa5a0a0cf40d3e4801a5b9b23044c4f60a58187&w=740"
-								alt=""></span>
-						<h3>Jr. Software Engineer</h3>
-						<p>Converted Figma designs into responsive, pixel-perfect Angular and React
-							frontends. Developed modular components, integrated REST APIs, improved navigation flows,
-							and optimized SPA performance. Ensured high-quality UI engineering using component-based architecture,
-							reusable UI patterns, and cross-browser compatibility.</p>
-					</section>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<section class="box style1">
-						<span class="business"> <img style="height: 30vh;"
-								src="https://img.freepik.com/free-vector/consulting-service-financial-advisory-expert-support-businesswoman-adviser-cartoon-characters-assistance-service-business-advice-vector-isolated-concept-metaphor-illustration_335657-743.jpg?t=st=1737887219~exp=1737890819~hmac=af46da6d2feaa90f744dddabc17ae9eae4d572dfca5b6a74dbdedf149b066e6e&w=740"
-								alt="test image"></span>
-						<h3>Front End Developer</h3>
-						<p>Implemented SPA features using Angular , ensuring scalability and maintainability. Translated UI/UX wireframes into
-						reusable components, improving design
-						consistency. Led debugging and cross-environment testing to ensure robust functionality.</p>
-					</section>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<section class="box style1">
-						<span class=""> <img style="height: 30vh;"
-								src="https://img.freepik.com/free-vector/computer-programming-camp-abstract-concept-illustration_335657-3921.jpg?t=st=1737887517~exp=1737891117~hmac=5aead89381b4080f3d6cec397294172df28374503683123f9389ec27e8de2115&w=740"
-								alt=""></span>
-						<h3> Web Development Internship </h3>
-						<p>Collaborated on front-end development projects offered by Codsoft, creating user-friendly
-							interfaces.Resolved challenges in web development, showcasing adaptability and
-							problem-solving
-							abilities.Strengthened proficiency in web development technologies. <br>
-							Tech: HTML, CSS, JavaScript, Github.</p>
-					</section>
-				</div>
-			</div>
-			<footer>
-				<!-- <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p> -->
-				<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
-			</footer>
-		</div>
-	</article>
-
-	<!-- Portfolio -->
-	<article id="portfolio" class="wrapper style3">
-		<div class="container">
-			<header>
-				<h2>Here’s some stuff I made recently.</h2>
-				<!-- <p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p> -->
-			</header>
-			<div class="row">
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="https://github.com/tyagiuday/Gym-Site" target="_blank" class="image featured"><img
-								src="images/slide8.jpg" alt="" /></a>
-						<h3><a href="https://github.com/tyagiuday/Gym-Site">Gym Site </a></h3>
-						<p>The purpose of Gym Website is to automate the existing manual system by thehelp of
-							computerized equipments and
-							full-fledged computer software, fulfilling their requirements, so that their valuable
-							data/information can be stored for
-							a longer periodwith easy accessing and manipulation of the same. </p>
-					</article>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="https://github.com/tyagiuday/Ninja-Ball-Javascript-game-/tree/521114e430aad46a5ed4bed87ecc224e935cfed1/Ball-Ninja-Game-master"
-							target="_blank" class="image featured"><img src="images/Ball Ninja .png" alt="" /></a>
-						<h3><a
-								href="https://github.com/tyagiuday/Ninja-Ball-Javascript-game-/tree/521114e430aad46a5ed4bed87ecc224e935cfed1/Ball-Ninja-Game-master">
-								Ball Ninja JavaScript game</a></h3>
-						<p>Developed a fully functional, interactive Ninja Ball game using JavaScript, HTML, and CSS.
-							The game features dynamic
-							object movement, collision detection, and player controls. Implemented core gameplay
-							mechanics like score tracking,
-							level progression, and game-over conditions.Responsive design to ensure a seamless user
-							experience across devices.</p>
-					</article>
-				</div>
-				<div class="col-4 col-6-medium col-12-small">
-					<article class="box style2">
-						<a href="https://github.com/tyagiuday/number-guessing-game.git" target="_blank"
-							class="image featured"><img src="images/number guessing.jpg" alt="" /></a>
-						<h3><a href="https://github.com/tyagiuday/number-guessing-game.git">Number Guessing Game</a>
-						</h3>
-						<p>Developed a command-line number guessing game in Java where players attempt to guess a
-							randomly generated number between
-							1 and 100 within a set number of attempts. The program provides feedback on whether the
-							guess is too high or too low and
-							tracks the number of remaining attempts.</p>
-					</article>
-				</div>
-				<!-- <div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								<h3><a href="#">Tempus dolore</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
+				<div class="hero-panels reveal slide-left">
+					<div class="glass-panel hero-profile magnetic-card">
+						<div class="profile-meta">
+							<span>Uday Tyagi</span>
+							<span>India</span>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Feugiat aliquam</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
+						<div class="profile-core">
+							<img
+								class="profile-photo"
+								src="https://avatars.githubusercontent.com/u/97380506?s=400&amp;u=c20a5ccb5c958eb9d2f10d2a404ecb88b4477dbb&amp;v=4"
+								alt="Uday Tyagi profile photo" />
+							<div>
+								<h2>Frontend / Full Stack-focused Software Engineer</h2>
+								<p>Enterprise SaaS, workflows, scalable UI systems, operational automation</p>
+							</div>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-								<h3><a href="#">Sed amet ornare</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div> -->
-			</div>
-			<footer>
-				<!-- <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p> -->
-				<a href="#contact" class="button large scrolly">Get in touch with me</a>
-			</footer>
-		</div>
-	</article>
+						<div class="metric-grid">
+							<div>
+								<strong>2+</strong>
+								<span>Years in product engineering</span>
+							</div>
+							<div>
+								<strong>6</strong>
+								<span>Enterprise-oriented case studies</span>
+							</div>
+							<div>
+								<strong>API</strong>
+								<span>Integration-heavy application work</span>
+							</div>
+							<div>
+								<strong>Scale</strong>
+								<span>Reusable, workflow-first architecture</span>
+							</div>
+						</div>
+					</div>
 
-	<!-- Contact -->
-	<article id="contact" class="wrapper style4">
-		<div class="container medium">
-			<header>
-				<h2>To contact me </h2>
-				<!-- <p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p> -->
-			</header>
-			<div class="row">
-				<div class="col-12">
-					<form id="contact-form" method="POST" action="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID" data-formspree="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID">
+					<div class="glass-panel hero-summary magnetic-card">
+						<p class="mini-label">Core Positioning</p>
+						<ul class="summary-list">
+							<li>Angular &amp; Next.js Engineer</li>
+							<li>Enterprise Workflow Engineer</li>
+							<li>Healthcare-Tech Engineer</li>
+							<li>Integration POC Contributor</li>
+							<li>Product-Oriented Software Engineer</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="trust-strip">
+			<div class="container trust-grid reveal rise">
+				<div class="trust-item">
+					<strong>Enterprise workflows</strong>
+					<span>Operational systems built for real business processes</span>
+				</div>
+				<div class="trust-item">
+					<strong>Healthcare-tech</strong>
+					<span>Complex UI for care plans, invoices, staff and collections</span>
+				</div>
+				<div class="trust-item">
+					<strong>Leasing &amp; logistics</strong>
+					<span>Wagon procurement, bank guarantees, warranties, shipment workflows</span>
+				</div>
+				<div class="trust-item">
+					<strong>Scalable frontend systems</strong>
+					<span>Reusable components, API-driven modules, dashboard thinking</span>
+				</div>
+			</div>
+		</section>
+
+		<section id="about" class="section-shell">
+			<div class="container">
+				<div class="section-header reveal rise">
+					<p class="eyebrow">About</p>
+					<h2>Enterprise-minded engineering with a product-first frontend foundation.</h2>
+					<p>
+						Uday Tyagi is a Software Engineer with 2+ years of experience delivering enterprise workflow
+						systems, healthcare management platforms, logistics and leasing portals, dashboard-driven
+						applications, and integration-heavy business software.
+					</p>
+				</div>
+
+				<div class="about-grid">
+					<article class="glass-panel about-card statement-card reveal rise magnetic-card">
+						<p class="mini-label">What I build</p>
+						<p>
+							I work best on products where interface quality and operational logic need to move together.
+							That includes reusable component architecture, enterprise UI systems, dynamic forms,
+							workflow automation, API integrations, and frontend optimization for products that carry
+							real business responsibility.
+						</p>
+					</article>
+
+					<article class="glass-panel about-card reveal rise magnetic-card">
+						<p class="mini-label">Engineering strengths</p>
+						<ul class="detail-list">
+							<li>Reusable Angular component architecture</li>
+							<li>Dynamic form systems and workflow-heavy screens</li>
+							<li>Integration-driven UI for operations and reporting</li>
+							<li>Frontend optimization for scalable business products</li>
+						</ul>
+					</article>
+
+					<article class="glass-panel about-card reveal rise magnetic-card">
+						<p class="mini-label">Current direction</p>
+						<p>
+							Alongside strong frontend delivery, I&apos;m growing deeper into full stack engineering with
+							Next.js, Node.js, NestJS, REST APIs, authentication layers, and database-backed application design.
+						</p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section id="skills" class="section-shell section-dark">
+			<div class="container">
+				<div class="section-header reveal rise">
+					<p class="eyebrow">Skills</p>
+					<h2>Built for enterprise product teams, workflow systems, and scalable interfaces.</h2>
+				</div>
+
+				<div class="skills-grid">
+					<article class="skill-card reveal rise magnetic-card">
+						<p class="mini-label">Frontend</p>
+						<h3>Angular and Next.js UI engineering for enterprise products</h3>
+						<p>Focused on maintainable component systems, reactive workflows, dashboards, and scalable design implementation.</p>
+						<ul class="tag-cloud">
+							<li>Angular</li>
+							<li>Next.js</li>
+							<li>TypeScript</li>
+							<li>JavaScript</li>
+							<li>RxJS</li>
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>SCSS</li>
+							<li>Tailwind CSS</li>
+							<li>Angular Material</li>
+						</ul>
+					</article>
+
+					<article class="skill-card reveal rise magnetic-card">
+						<p class="mini-label">Backend / Full Stack</p>
+						<h3>Service integration and full stack transition</h3>
+						<p>Growing deeper into backend-backed product delivery with authentication, data modeling, and API-driven application logic.</p>
+						<ul class="tag-cloud">
+							<li>Node.js</li>
+							<li>NestJS</li>
+							<li>REST APIs</li>
+							<li>JWT Authentication</li>
+							<li>MySQL</li>
+							<li>PostgreSQL</li>
+							<li>Next.js API Routes</li>
+						</ul>
+					</article>
+
+					<article class="skill-card reveal rise magnetic-card">
+						<p class="mini-label">Enterprise / Workflow</p>
+						<h3>Operational automation and workflow orchestration</h3>
+						<p>Hands-on with business workflows, form systems, hooks, books, approvals, and integration-heavy process automation.</p>
+						<ul class="tag-cloud">
+							<li>Zoho Creator</li>
+							<li>Deluge Script</li>
+							<li>Zoho Flow</li>
+							<li>Zoho Forms</li>
+							<li>Zoho Books</li>
+							<li>Webhooks</li>
+							<li>Geoapify Integration</li>
+							<li>MuleSoft POCs</li>
+							<li>SharePoint Integration</li>
+							<li>OCR Workflows</li>
+						</ul>
+					</article>
+
+					<article class="skill-card reveal rise magnetic-card">
+						<p class="mini-label">Tools</p>
+						<h3>Delivery, debugging, collaboration, and product iteration</h3>
+						<p>Tooling that supports quality execution across UI building, integration testing, design coordination, and agile delivery.</p>
+						<ul class="tag-cloud">
+							<li>Git / GitHub</li>
+							<li>Postman</li>
+							<li>DBeaver</li>
+							<li>Figma</li>
+							<li>VS Code</li>
+							<li>Agile Methodology</li>
+							<li>Client Requirement Gathering</li>
+						</ul>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section id="experience" class="section-shell">
+			<div class="container">
+				<div class="section-header reveal rise">
+					<p class="eyebrow">Experience Timeline</p>
+					<h2>Career journey across enterprise frontend engineering, operations software, and workflow systems.</h2>
+				</div>
+
+				<div class="timeline-shell">
+					<div class="timeline-progress"></div>
+					<div class="timeline">
+						<article class="timeline-row reveal rise">
+							<div class="timeline-label">
+								<span>Dec 2024 - Present</span>
+								<strong>Nirjai Technologies Private Limited</strong>
+							</div>
+							<div class="glass-panel timeline-card magnetic-card">
+								<p class="timeline-role">Software Engineer</p>
+									<h3>Enterprise delivery across workflow portals, client requirements, and integration POCs</h3>
+									<ul class="detail-list timeline-points">
+										<li>Building enterprise-grade Angular interfaces for workflow-driven business applications.</li>
+										<li>Working across integration-heavy modules, dynamic screens, and reusable frontend systems.</li>
+										<li>Supporting scalable product architecture with API-connected business flows.</li>
+										<li>Gathering and refining client requirements for GATX/GIPL wagon leasing workflows.</li>
+										<li>Contributing to healthcare-tech, operational workflows, dashboards, approvals, and procurement systems.</li>
+									</ul>
+									<ul class="tag-cloud compact">
+										<li>Angular</li>
+										<li>Next.js</li>
+										<li>TypeScript</li>
+										<li>Enterprise UI</li>
+										<li>REST APIs</li>
+										<li>MuleSoft</li>
+									</ul>
+							</div>
+						</article>
+
+						<article class="timeline-row reveal rise">
+							<div class="timeline-label">
+								<span>Feb 2024 - Oct 2024</span>
+								<strong>SATPALDA</strong>
+							</div>
+							<div class="glass-panel timeline-card magnetic-card">
+								<p class="timeline-role">Software Engineer</p>
+								<h3>Product-facing development, enhancement work, and performance-focused delivery</h3>
+								<ul class="detail-list timeline-points">
+									<li>Worked on product-facing frontend development and workflow implementation.</li>
+									<li>Handled UI enhancements, bug fixes, optimization, and smoother operational flows.</li>
+									<li>Supported feature refinement across business applications with real delivery ownership.</li>
+								</ul>
+								<ul class="tag-cloud compact">
+									<li>Frontend Delivery</li>
+									<li>Workflow Modules</li>
+									<li>UI Enhancements</li>
+									<li>Optimization</li>
+								</ul>
+							</div>
+						</article>
+
+						<article class="timeline-row reveal rise">
+							<div class="timeline-label">
+								<span>Across Projects</span>
+								<strong>Enterprise Domains</strong>
+							</div>
+							<div class="glass-panel timeline-card magnetic-card">
+								<p class="timeline-role">Domain Experience</p>
+								<h3>Healthcare-tech, logistics automation, analytics, and workflow systems</h3>
+								<ul class="detail-list timeline-points">
+									<li>Hands-on across healthcare service platforms, logistics automation, Webflow CMS, and analytics systems.</li>
+									<li>Worked on products where forms, invoicing, approvals, dashboards, and integrations are core to operations.</li>
+									<li>Built systems that require clean UI structure, real-world process clarity, and scalable business thinking.</li>
+								</ul>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="projects" class="section-shell section-dark">
+			<div class="container">
+				<div class="section-header reveal rise">
+					<p class="eyebrow">Featured Projects</p>
+					<h2>Case studies that emphasize production workflows, integration depth, and business impact.</h2>
+				</div>
+
+				<div class="case-study-grid">
+					<article class="case-study featured-case reveal rise magnetic-card">
+						<div class="case-visual wagon-signal">
+							<span>Wagon Leasing &amp; Procurement Workflow Portal</span>
+							<h3>GATX / GIPL</h3>
+						</div>
+						<div class="case-content">
+							<p>
+								GATX, operating as GIPL in India, is a current enterprise portal initiative for the
+								wagon leasing business. The platform is being planned to onboard procurement workflows
+								for used and new wagons, manage bank guarantees, and handle warranty claim processes
+								inside a structured digital system.
+							</p>
+							<div class="case-columns">
+								<div>
+									<p class="mini-label">Current Role</p>
+									<ul class="detail-list">
+										<li>Gathering requirements from the client and validating the initial requirement set with stakeholders.</li>
+										<li>Mapping procurement workflows for new and used wagons into portal-ready business flows.</li>
+										<li>Understanding bank guarantee management, warranty claims, document handling, and approval needs.</li>
+										<li>Coordinating early requirement clarity while the project moves from discovery into implementation planning.</li>
+									</ul>
+								</div>
+								<div>
+									<p class="mini-label">Integration POCs</p>
+									<ul class="impact-list">
+										<li>MuleSoft integration feasibility</li>
+										<li>SharePoint document workflow planning</li>
+										<li>OCR for reading attached letters and PDFs</li>
+										<li>Next.js frontend and backend application approach</li>
+									</ul>
+									<ul class="tag-cloud compact">
+										<li>Next.js</li>
+										<li>TypeScript</li>
+										<li>MuleSoft</li>
+										<li>SharePoint</li>
+										<li>OCR</li>
+										<li>Bank Guarantees</li>
+										<li>Warranty Claims</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</article>
+
+					<article class="case-study featured-case reveal rise magnetic-card">
+						<div class="case-visual dark-signal">
+							<span>Enterprise Workflow Management System</span>
+							<h3>AZTUTE</h3>
+						</div>
+						<div class="case-content">
+							<p>
+								Worked as <strong>Project Manager &amp; Developer</strong> and handled 6 projects with
+								this client across frontend delivery, integrations, dashboards, and performance
+								engineering across healthcare-tech and enterprise workflow programs.
+							</p>
+							<div class="case-columns">
+								<div>
+									<p class="mini-label">Responsibilities</p>
+									<ul class="detail-list">
+										<li>Engineered a flattened data warehouse schema from the core Aztute DB using industry-standard naming conventions.</li>
+										<li>Refactored .NET APIs and frontend logic to reduce form reload times from 33 seconds to under 6 seconds.</li>
+										<li>Managed Waystar implementation with dynamic multi-tenant routing and 270/271 eligibility loops.</li>
+										<li>Led integration sprints for DocuSign, eFax, and Microsoft 365 Calendar synchronization.</li>
+										<li>Acted as PM and Developer for UserHub dashboards, estimation, reviews, and dashboard buildout.</li>
+									</ul>
+								</div>
+								<div>
+									<p class="mini-label">Business Impact</p>
+									<ul class="impact-list">
+										<li>Massively improved form load performance</li>
+										<li>Strengthened integration reliability</li>
+										<li>Improved client-side data compatibility</li>
+										<li>Supported delivery across 6 active projects</li>
+									</ul>
+									<ul class="tag-cloud compact">
+										<li>Angular</li>
+										<li>TypeScript</li>
+										<li>.NET APIs</li>
+										<li>REST APIs</li>
+										<li>DocuSign</li>
+										<li>Microsoft 365</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</article>
+
+					<article class="case-study reveal rise magnetic-card">
+						<div class="case-visual gradient-signal">
+							<span>Enterprise Logistics &amp; Workflow Automation Platform</span>
+							<h3>NAVSTAR</h3>
+						</div>
+						<div class="case-content">
+							<p>
+								NAVSTAR is an enterprise-grade logistics and shipment workflow platform built within the
+								Zoho ecosystem for managing shipment tracking, operational workflows, invoicing, and
+								automation systems.
+							</p>
+							<ul class="detail-list">
+								<li>Built workflows using Zoho Creator and Deluge scripting.</li>
+								<li>Designed UI screens using Zoho Forms and connected webhooks using Zoho Flow.</li>
+								<li>Managed invoicing workflows with Zoho Books and live shipment status updates.</li>
+								<li>Integrated Geoapify API for better sender/receiver geo-location tracking.</li>
+							</ul>
+							<div class="case-footer">
+								<strong>Impact: Improved shipment visibility and streamlined logistics operations</strong>
+								<ul class="tag-cloud compact">
+									<li>Zoho Creator</li>
+									<li>Deluge Script</li>
+									<li>Zoho Flow</li>
+									<li>Zoho Forms</li>
+									<li>Zoho Books</li>
+									<li>Geoapify API</li>
+								</ul>
+							</div>
+						</div>
+					</article>
+
+					<article class="case-study reveal rise magnetic-card">
+						<div class="case-visual soft-signal">
+							<span>Enterprise Analytics &amp; Webflow CMS Platform</span>
+							<h3>PM INSIGHTS</h3>
+						</div>
+						<div class="case-content">
+							<p>
+								Webflow-based analytics and operational insights platform used for company information,
+								reporting workflows, dashboards, and CMS-driven enterprise experiences.
+							</p>
+							<ul class="detail-list">
+								<li>Worked on multiple CRs and design refinements.</li>
+								<li>Enhanced CMS structures and frontend maintainability.</li>
+								<li>Implemented asynchronous loading techniques for enterprise data sections.</li>
+								<li>Improved rendering efficiency for company logos and operational information.</li>
+								<li>Optimized frontend performance and responsiveness.</li>
+							</ul>
+							<div class="case-footer">
+								<strong>Impact: Improved portal efficiency by approximately 40%</strong>
+								<ul class="tag-cloud compact">
+									<li>Webflow</li>
+									<li>CMS</li>
+									<li>JavaScript</li>
+									<li>Async Programming</li>
+									<li>Frontend Optimization</li>
+								</ul>
+							</div>
+						</div>
+					</article>
+
+					<article class="case-study reveal rise magnetic-card">
+						<div class="case-visual healthcare-signal">
+							<span>Healthcare Service Management Platform</span>
+							<h3>HDU</h3>
+						</div>
+						<div class="case-content">
+							<p>
+								Enterprise healthcare platform handling care plans, patient records, invoices, payments,
+								collections, staff workflows, equipment management, and operational tracking.
+							</p>
+							<ul class="detail-list">
+								<li>Built healthcare workflow interfaces</li>
+								<li>Created dynamic forms and reusable modules</li>
+								<li>Developed invoice and payment systems</li>
+								<li>Designed patient management workflows</li>
+								<li>Built care plan systems and equipment rental flows</li>
+								<li>Implemented collections and approval workflows</li>
+							</ul>
+							<div class="case-footer">
+								<a
+									href="https://www.figma.com/proto/9n699THRpTbIIgiHnvNEdW/HDU-Design?page-id=0%3A1&node-id=1137-14610&viewport=-11105%2C22878%2C0.48&t=bTxyv8pCnpjD8axu-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1137%3A14610&show-proto-sidebar=1"
+									target="_blank"
+									rel="noreferrer"
+									class="inline-link">
+									View Prototype
+								</a>
+								<ul class="tag-cloud compact">
+									<li>Angular</li>
+									<li>TypeScript</li>
+									<li>RxJS</li>
+									<li>Angular Material</li>
+									<li>Tailwind CSS</li>
+									<li>Dynamic Reactive Forms</li>
+								</ul>
+							</div>
+						</div>
+					</article>
+
+					<article class="case-study reveal rise magnetic-card">
+						<div class="case-visual path-signal">
+							<span>Healthcare Operational Workflow System</span>
+							<h3>PATHKIND</h3>
+						</div>
+						<div class="case-content">
+							<ul class="detail-list">
+								<li>UI/UX design for workflow-driven interfaces</li>
+								<li>Staff management modules and responsive layouts</li>
+								<li>Enterprise frontend architecture decisions</li>
+								<li>Scalable, workflow-first screen design</li>
+							</ul>
+							<div class="case-footer">
+								<a
+									href="https://www.figma.com/proto/ZCzTNk6TeBqlFLXiXYzQFF/Pathkind?page-id=0%3A1&node-id=28-140&viewport=-2758%2C88%2C0.09&t=k6JQtlUYLABpvDdD-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=28%3A140"
+									target="_blank"
+									rel="noreferrer"
+									class="inline-link">
+									View Prototype
+								</a>
+								<ul class="tag-cloud compact">
+									<li>Angular</li>
+									<li>TypeScript</li>
+									<li>Tailwind CSS</li>
+									<li>Angular Material</li>
+									<li>Figma</li>
+								</ul>
+							</div>
+						</div>
+					</article>
+
+					<article class="case-study reveal rise magnetic-card">
+						<div class="case-visual gradient-signal">
+							<span>Earlier Live Project</span>
+							<h3>MAPAAURHUM</h3>
+						</div>
+						<div class="case-content">
+							<p>
+								An earlier shipped web project that reflects practical frontend delivery, structured
+								presentation, and hands-on experience building for live visibility on the web.
+							</p>
+							<div class="case-footer">
+								<a href="https://mapaaurhum.com/" target="_blank" rel="noreferrer" class="inline-link">View Live Project</a>
+								<ul class="tag-cloud compact">
+									<li>Live Project</li>
+									<li>Frontend Delivery</li>
+									<li>Responsive Web</li>
+								</ul>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section id="stack" class="section-shell">
+			<div class="container">
+				<div class="section-header reveal rise">
+					<p class="eyebrow">Tech Stack</p>
+					<h2>Scalable product engineering across UI, APIs, data, and workflow automation.</h2>
+				</div>
+
+				<div class="stack-grid">
+					<div class="glass-panel stack-card reveal rise magnetic-card">
+						<p class="mini-label">Application Layer</p>
+						<h3>Angular, Next.js, TypeScript, RxJS, Tailwind CSS, Angular Material</h3>
+						<p>Structured for maintainability, reusable UI systems, and enterprise dashboard delivery.</p>
+					</div>
+					<div class="glass-panel stack-card reveal rise magnetic-card">
+						<p class="mini-label">Service Layer</p>
+						<h3>Next.js, Node.js, NestJS, REST APIs, JWT Auth</h3>
+						<p>Supporting full stack delivery for portal workflows, backend-backed screens, and integration-heavy products.</p>
+					</div>
+					<div class="glass-panel stack-card reveal rise magnetic-card">
+						<p class="mini-label">Data Layer</p>
+						<h3>MySQL, PostgreSQL, DBeaver, Postman</h3>
+						<p>Comfortable working with integration-backed workflows, operational data, and debugging tools.</p>
+					</div>
+					<div class="glass-panel stack-card reveal rise magnetic-card">
+						<p class="mini-label">Workflow Layer</p>
+						<h3>MuleSoft, SharePoint, OCR, Zoho Creator, Deluge, Zoho Flow, Webhooks</h3>
+						<p>Ideal for procurement workflows, leasing operations, document automation, logistics workflows, and operational visibility.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="section-shell contact-section">
+			<div class="container">
+				<div class="contact-layout glass-panel reveal rise">
+					<div class="contact-copy">
+						<p class="eyebrow">Contact</p>
+						<h2>Ready to contribute to serious product teams from day one.</h2>
+						<p>
+							If you&apos;re hiring for frontend engineering, Angular product development, healthcare-tech
+							platforms, leasing portals, workflow automation, or full stack growth roles, I&apos;d be glad to connect.
+						</p>
+						<ul class="contact-list">
+							<li><a href="mailto:udaytyagi2020@gmail.com">udaytyagi2020@gmail.com</a></li>
+							<li><a href="tel:+917906325219">+91 7906325219</a></li>
+							<li><a href="https://github.com/tyagiuday" target="_blank" rel="noreferrer">GitHub</a></li>
+							<li><a href="https://www.linkedin.com/in/uday-veer-singh-78ab3b224/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+							<li><a href="https://tyagiuday.github.io/My_Portfolio/" target="_blank" rel="noreferrer">Current Portfolio URL</a></li>
+						</ul>
+					</div>
+
+					<form id="contact-form" class="contact-form">
 						<div class="row">
 							<div class="col-6 col-12-small">
-								<input type="text" name="name" id="name" placeholder="Name" />
+								<input type="text" name="name" id="name" placeholder="Your name" />
 							</div>
 							<div class="col-6 col-12-small">
-								<input type="text" name="email" id="email" placeholder="Email" />
+								<input type="email" name="email" id="email" placeholder="Your email" />
 							</div>
 							<div class="col-12">
-								<input type="text" name="subject" id="subject" placeholder="Subject" />
+								<input type="text" name="subject" id="subject" placeholder="Role, team, or project" />
 							</div>
 							<div class="col-12">
-								<textarea name="message" id="message" placeholder="Message"></textarea>
+								<textarea name="message" id="message" placeholder="Tell me about the opportunity or what you're building."></textarea>
+								<p class="form-note">Clicking send opens an email draft to `udaytyagi2020@gmail.com` with your name and role in the subject line.</p>
 							</div>
 							<div class="col-12">
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
-									<li><input type="reset" value="Clear Form" class="alt" /></li>
 								</ul>
 							</div>
 						</div>
 					</form>
-					<div id="contact-status" style="display:none;margin-top:1em;"></div>
-				</div>
-				<div class="col-12">
-					<hr />
-					<h3>Find me on ...</h3>
-					<ul class="social">
-						<li><a href="https://www.linkedin.com/in/uday-veer-singh-78ab3b224/"
-								class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/tyagiuday" class="icon brands fa-github"><span
-									class="label">Github</span></a></li>
-						<!--
-								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
-								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
-								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
-								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
-								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
-								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
-								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
-								-->
-					</ul>
-					<hr />
 				</div>
 			</div>
-			<footer>
-				<ul id="copyright">
-					<li>&copy; Untitled. All rights reserved.</li>
-					<li>Design: Uday Veer Singh</li>
-				</ul>
-			</footer>
-		</div>
-	</article>
+		</section>
+	</main>
 
-	<!-- Scripts -->
+	<footer class="site-footer">
+		<div class="container footer-inner">
+			<div class="footer-brand">
+				<div class="footer-logo">
+					<span class="footer-logo__halo" aria-hidden="true"></span>
+					<span class="footer-logo__letters">UT</span>
+				</div>
+				<div>
+					<strong>Uday Tyagi</strong>
+					<p>Enterprise frontend engineer building workflow-heavy products, healthcare-tech platforms, leasing portals, and scalable business applications.</p>
+				</div>
+			</div>
+			<div class="footer-links">
+				<a href="mailto:udaytyagi2020@gmail.com">udaytyagi2020@gmail.com</a>
+				<a href="https://github.com/tyagiuday" target="_blank" rel="noreferrer">GitHub</a>
+				<a href="https://www.linkedin.com/in/uday-veer-singh-78ab3b224/" target="_blank" rel="noreferrer">LinkedIn</a>
+			</div>
+		</div>
+	</footer>
+
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-
 </body>
-
 </html>
